@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>Tetris</title>
+    <style>
+      body {
+        background-color: #222;
+        color: #fff;
+        text-align: center;
+        font-family: sans-serif;
+      }
+
+      #game-board {
+        width: 240px;
+        height: 480px;
+        margin: 0 auto;
+        border: 2px solid #fff;
+      }
+
+      .cell {
+        width: 20px;
+        height: 20px;
+        background-color: #333;
+        border: 1px solid #555;
+        float: left;
+      }
+
+      .tetromino {
+        position: absolute;
+      }
+
+      #score {
+        margin-top: 20px;
+      }
+
+      #start-btn {
+        margin-top: 20px;
+        padding: 10px 20px;
+        background-color: #fff;
+        color: #222;
+        border: none;
+        cursor: pointer;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Tetris</h1>
+    <div id="game-board"></div>
+    <div id="score">Score: 0</div>
+    <button id="start-btn">Start</button>
+    <script src="tetris.js"></script>
+  </body>
+</html>

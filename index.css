@@ -1,0 +1,49 @@
+#game {
+width: 400px;
+margin: 0 auto;
+}
+
+#board {
+width: 200px;
+height: 400px;
+border: 2px solid black;
+}
+
+#board td {
+width: 10px;
+height: 10px;
+}
+
+.empty {
+background-color: white;
+}
+
+.red {
+background-color: red;
+}
+
+.blue {
+background-color: blue;
+}
+
+.green {
+background-color: green;
+}
+
+/* 省略 */
+
+#info {
+width: 180px;
+height: 400px;
+float: right;
+}
+
+#info p {
+font-size: 16px;
+}
+
+#next {
+display: inline-block;
+width: 40px;
+height: 40px;
+}
